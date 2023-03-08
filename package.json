@@ -1,0 +1,16 @@
+{
+  "name": "@482F-utils/vue3",
+  "version": "1.0.0",
+  "main": "index.mts",
+  "license": "MIT",
+  "scripts": {
+    "ps": "powershell.exe /c yarn",
+    "dev": "yarn ps tauri dev",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vuetify": "^3.1.4"
+  }
+}
