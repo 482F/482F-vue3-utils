@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "main": "index.mts",
   "license": "MIT",
-  "scripts": {
-    "ps": "powershell.exe /c yarn",
-    "dev": "yarn ps tauri dev",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
+    "@482F-utils/ts": "https://github.com/482f/482F-ts-utils.git",
+    "lodash": "^4.17.21",
+    "typescript": "^5.0.2",
     "vue": "^3.2.47",
     "vuetify": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.192",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.0.0",
+    "vue-tsc": "^1.0.11"
   }
 }
